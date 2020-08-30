@@ -1,0 +1,2 @@
+define(["exports","loading"],(function(_exports,_loading){"use strict";function onFinish(){_loading.default.show(),ApiClient.ajax({url:ApiClient.getUrl("Startup/Complete"),type:"POST"}).then((function(){_loading.default.hide(),window.location.href="index.html"}))}Object.defineProperty(_exports,"__esModule",{value:!0}),_exports.default=function _default(view,params){view.querySelector(".btnWizardNext").addEventListener("click",onFinish)},_loading=function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}(_loading)}));
+//# sourceMappingURL=index.js.map

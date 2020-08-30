@@ -1,0 +1,2 @@
+define(["exports"],(function(_exports){"use strict";Object.defineProperty(_exports,"__esModule",{value:!0}),_exports.default=void 0;var _default={openUrl:function openUrl(url,target){window.NativeShell?window.NativeShell.openUrl(url,target):window.open(url,target||"_blank")},enableFullscreen:function enableFullscreen(){window.NativeShell&&window.NativeShell.enableFullscreen()},disableFullscreen:function disableFullscreen(){window.NativeShell&&window.NativeShell.disableFullscreen()}};_exports.default=_default}));
+//# sourceMappingURL=shell.js.map
